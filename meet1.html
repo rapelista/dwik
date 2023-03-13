@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Latihan 1</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="product.html">PRODUCT</a></li>
+            <li><a href="">GALLERY</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">INVENTORY</a></li>
+        </ul>
+    </div>
+    <hr />
+    <div id="profile">
+        <img src="img/download.jpeg" alt="gambar profil">
+        <div class="card">
+            <h2 id="nama_"></h2>
+            <h3 id="role_"></h3><br>
+            <a><input class="kontak" type="button" value="EDIT" onclick="showHideForm()"></a> 
+            <input class="resume" type="button" value="RESUME">
+
+        </div>
+        <hr class="hr">
+
+        <div class="biodata">
+            <table>
+                <tr>
+                    <th>Availability</th>
+                    <td>:</td>
+                    <td id="avail_"></td>
+                </tr>
+                <tr>
+                    <th>Usia</th>
+                    <td>:</td>
+                    <td id="usia_"></td>
+                </tr>
+                <tr>
+                    <th>Lokasi</th>
+                    <td>:</td>
+                    <td id="lokasi_"></td>
+                </tr>
+                <tr>
+                    <th>Years Experience</th>
+                    <td>:</td>
+                    <td id="pengalaman_"></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>:</td>
+                    <td id="email_"></td>
+                </tr>
+                
+            </table>
+        </div>
+
+    </div>
+    <div id="form" class="hide">
+        <form action="">
+            <label for="Nama">Nama</label><br>
+            <input type="text" name="" id="nama"><br>
+            <label for="Role">Role </label><br>
+            <input type="text" name="" id="role"><br>
+            <label for="Availability">Availability </label><br>
+            <input type="text" name="" id="avail"><br>
+            <label for=">Usia">Usia </label><br>
+            <input type="text" name="" id="usia"><br>
+            <label for="Lokasi">Lokasi </label><br>
+            <input type="text" name="" id="lokasi"><br>
+            <label for="Years Experience">Years Experience </label><br>
+            <input type="text" name="" id="pengalaman"><br>
+            <label for="Email">Email </label><br>
+            <input type="text" name="" id="email"><br>
+            <input class="button" type="button" name="" value="SUBMIT" id="submit">
+        </form>
+    </div>
+</body>
+<script src="form.js"></script>
+
+</html>
